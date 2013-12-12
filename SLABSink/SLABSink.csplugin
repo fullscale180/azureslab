@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<RoleModule xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" namespace="FullScale180.WindowsAzure.Plugins.SLABSink">
+  <Startup priority="-2">
+    <Task commandLine="bootstrap.cmd" executionContext="elevated" taskType="background"/>
+  </Startup>
+  <ConfigurationSettings>
+    <Setting name="ConfigurationFile" />
+  </ConfigurationSettings>
+</RoleModule>
